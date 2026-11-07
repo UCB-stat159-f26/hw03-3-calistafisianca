@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tennisplot"
+version = "0.1.0"
+description = "Get a tennis player's career matches from Tennis Abstract and plot opponent age differences."
+readme = "README.md"
+authors = [{ name = "Calista Kurniawan" }]
+requires-python = ">=3.9"
+dependencies = ["pandas", "matplotlib"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
