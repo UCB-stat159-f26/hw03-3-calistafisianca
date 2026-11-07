@@ -9,7 +9,7 @@ colored by win or loss.
 ## Installation
 
 ```bash
-pip install git+https://github.com/USERNAME/REPO.git
+pip install git+https://github.com/UCB-stat159-f26/hw03-3-calistafisianca.git
 ```
 
 ## Usage
