@@ -96,4 +96,10 @@ pytest
 
 ### Calista Kurniawan
 
-[Your reflection here]
+This assignment showed me the gap between code that works for one case and a package other people can actually use. My HW2 code only worked for Serena Williams, since I’d hardcoded her birthdate and file paths. This time I had to make it work for any player. That meant dealing with different name formats and pulling birthdates straight from Tennis Abstract.
+
+Something I didn’t expect was that the men’s and women’s career files aren’t formatted the same way. In the women’s files, that column has the opponent’s birthdate, but in the men’s files it already has their age. I only caught this because I opened the raw files for Serena and Nadal before writing the cleaning functions. If I hadn’t, I probably would have spent a long time debugging weird ages later.
+
+I also learned why it’s better not to hit a live website every time you run a test. I hadn’t used mock data before, but it made the tests faster and meant they didn’t break if Tennis Abstract was slow or down. Keeping the functions short was harder than I thought. Splitting the bigger ones into smaller helper functions made that easier, and the code was easier to read too.
+
+I used Claude to help draft the package code. I did the checking myself: I looked through the different file formats, tested the package on real players, and compared the plots to my HW2 results. I also got more comfortable with git. I worked on a separate branch, made regular commits, and checked that the package actually installed correctly.
